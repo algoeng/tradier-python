@@ -172,7 +172,7 @@ class Leg(BaseModel):
     quantity: float
     status: str
     duration: str
-    price: Optional[float]
+    price: Optional[float] = None
     avg_fill_price: float
     exec_quantity: float
     last_fill_price: float
